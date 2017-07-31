@@ -1,0 +1,158 @@
+body {
+    padding-top: 50px;
+}
+
+.em-text {
+    color: #1caa90 !important;
+}
+
+.jumbotron {
+    background: url('../img/bat.jpg') no-repeat top center !important;
+    background-size: cover;
+    /* background-image: url('../img/smartphone.png'), url('../img/bat.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right, top center; */
+    color: white;
+    height: 548px;
+}
+
+.jumbotron h1 {
+    margin-top: 60px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.jumbotron p {
+    margin-bottom: 40px;
+}
+
+.jumbotron .app-btn {
+    width: 40%;
+    margin-right: 2em;
+}
+
+.jumbotron .showcase-img {
+    height: 500px;
+}
+
+.demo {
+    height: 300px;
+    padding: 1rem;
+    border: 1px solid lightgray;
+    margin-bottom: 2rem;
+}
+
+section {
+    padding-top: 4rem;
+    padding-bottom: 40px;
+    /* height: 598px; */
+}
+
+.big-logo {
+    width: 100%;
+}
+
+section#feature h1,
+section#feature ul {
+    padding-top: 4rem;
+}
+
+section#feature {
+    background: #1caa98;
+    color: white;
+    overflow: auto;
+}
+
+section#feature ul li {
+    font-size: 16px;
+    list-style: none;
+    line-height: 2em;
+}
+
+section#feature i {
+    padding-right: 1.4rem;
+}
+
+section#title-bar {
+    padding: 0px;
+    margin: 0px;
+    height: 80px;
+    background: #1caa98;
+    color: white;
+}
+
+section#title-bar h1 {
+    margin-bottom: 20px;
+}
+
+footer {
+    /* position: absolute;
+    bottom: 0;
+    width: 100%; */
+    background: #333;
+    color: white;
+    padding: 20px 0 20px 0;
+}
+
+footer li {
+    float: left;
+    padding: 0 10px 0 10px;
+    list-style: none;
+}
+
+footer a {
+    color: white;
+}
+
+footer p {
+    float: right;
+}
+
+@media(max-width:1200px) {}
+
+@media(max-width:991px) {
+    .jumbotron {
+        height: 408px;
+    }
+    jumbotron h1 {
+        margin-top: 20px;
+    }
+    section#middle .demo {
+        height: 200px;
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto; */
+    }
+    .jumbotron .app-btn {
+        width: 30%;
+    }
+    section#feature .big-logo {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+@media(min-width:768px) and (max-width:990px) {}
+
+@media(max-width:768px) {
+    .jumbotron {
+        height: 100vh;
+    }
+    .jumbotron h1 {
+        font-size: 5rem;
+    }
+    section#middle .demo {
+        /* height: 200px; */
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    section#middle p {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width:500px) {}
